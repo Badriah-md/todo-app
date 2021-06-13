@@ -33,7 +33,7 @@ struct ListView: View {
                 //:List
             }
         }
-        .navigationTitle("TO DO Listtt 🗒")
+        .navigationTitle("TO DO List 🗒")
         .navigationBarItems(
             leading: EditButton(),
             trailing: NavigationLink("Add", destination: AddView())
